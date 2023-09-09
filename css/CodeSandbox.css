@@ -282,12 +282,14 @@ body {
 .section-main__column-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 46.14px;
 }
 
 .section-main__list {
   display: flex;
   gap: 33px;
+  border-bottom: 1px solid #343434;
 }
 
 .section-main__item a {
