@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-@mixin text-35px {
+@mixin h4 {
 	font-family: 'Inter';
 	font-size: 35px;
 	font-weight: 400;
@@ -52,4 +52,25 @@
 	line-height: 100%;
 	color: #151515;
 	text-align: center;
+}
+
+@mixin button {
+	border-radius: 4px;
+	background: #EAFF96;
+	padding: 6px 8px 10px 8px;
+	transition: all 0.6s;
+
+	a {
+		font-family: 'Inter';
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 100%;
+		color: $black;
+		text-align: center;
+	}
+
+	&:hover {
+		transition: all 0.6s;
+		background: #eaff96bb;
+	}
 }

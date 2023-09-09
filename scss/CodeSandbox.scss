@@ -33,7 +33,7 @@ body {
     margin: 0 auto;
 }
 
-////// HEADER ////////////////
+////////////////// HEADER //////////////////
 
 .header {
     position: relative;
@@ -42,4 +42,95 @@ body {
     top: 0;
     z-index: 50;
 	background: #0F0E0E;
+}
+
+.header__body {
+	display: flex;
+	align-items: center;
+	padding: 14px 0px;
+}
+
+.header__logo {
+	flex: 1 1 auto;
+	img {
+		width: 141px;
+		height: 20px;
+	}
+}
+
+.header__menu {
+}
+
+.header__list {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+
+.header__item {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	a {
+		@include text-12px;
+	}
+}
+
+.header__button {
+	@include button;
+}
+
+////////////////// MAIN //////////////////
+.main {
+	flex: 1 1 auto;
+}
+
+/* SECTION-MAIN */
+.section-main {
+}
+
+.ssection-main__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-main__img {
+	margin: 32px 0px 152px 0px;
+	img {
+		width: 1081px;
+		height: 265px;
+		object-fit: cover;
+	}
+}
+
+.section-main__block-title {
+}
+
+.section-main__sub-title {
+	@include h4;
+	margin-bottom: 16px
+}
+
+.section-main__title {
+	@include h2;
+	margin-bottom: 31px
+}
+
+.section-main__text {
+	@include text-17px;
+	margin-bottom: 14px
+}
+
+.section-main__button {
+	@include button;
+	padding: 12px;
+
+	a {
+		font-size: 16px;
+	}
+}
+
+////////////////// FOOTER //////////////////
+.footer {
 }

@@ -121,3 +121,131 @@ body {
   z-index: 50;
   background: #0F0E0E;
 }
+
+.header__body {
+  display: flex;
+  align-items: center;
+  padding: 14px 0px;
+}
+
+.header__logo {
+  flex: 1 1 auto;
+}
+.header__logo img {
+  width: 141px;
+  height: 20px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.header__item a {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
+}
+
+.header__button {
+  border-radius: 4px;
+  background: #EAFF96;
+  padding: 6px 8px 10px 8px;
+  transition: all 0.6s;
+}
+.header__button a {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #151515;
+  text-align: center;
+}
+.header__button:hover {
+  transition: all 0.6s;
+  background: rgba(234, 255, 150, 0.7333333333);
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+/* SECTION-MAIN */
+.ssection-main__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-main__img {
+  margin: 32px 0px 152px 0px;
+}
+.section-main__img img {
+  width: 1081px;
+  height: 265px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-main__sub-title {
+  font-family: "Inter";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 108.571%;
+  letter-spacing: 0.95px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-main__title {
+  font-family: "Roboto";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.6px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.section-main__text {
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 137.647%;
+  color: #999;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.section-main__button {
+  border-radius: 4px;
+  background: #EAFF96;
+  padding: 6px 8px 10px 8px;
+  transition: all 0.6s;
+  padding: 12px;
+}
+.section-main__button a {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #151515;
+  text-align: center;
+}
+.section-main__button:hover {
+  transition: all 0.6s;
+  background: rgba(234, 255, 150, 0.7333333333);
+}
+.section-main__button a {
+  font-size: 16px;
+}
