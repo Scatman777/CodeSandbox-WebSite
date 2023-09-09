@@ -76,6 +76,12 @@ body {
 	}
 }
 
+.header__block-button {
+	display: flex;
+    flex: 1 1 48px;
+    justify-content: flex-end;
+}
+
 .header__button {
 	@include button;
 }
