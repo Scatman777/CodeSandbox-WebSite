@@ -292,6 +292,12 @@ body {
   border-bottom: 1px solid #343434;
 }
 
+.section-main__item {
+  width: 110px;
+  padding-bottom: 12.86px;
+  text-align: center;
+  transition: all 0.7s;
+}
 .section-main__item a {
   font-family: "Inter";
   font-size: 17px;
@@ -301,6 +307,10 @@ body {
   text-align: center;
   line-height: normal;
   color: #FFF;
+}
+.section-main__item:hover {
+  border-bottom: 1px solid #FFF;
+  transition: all 0.7s;
 }
 
 .section-main__text-setup {

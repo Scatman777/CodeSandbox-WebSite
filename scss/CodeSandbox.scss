@@ -174,10 +174,19 @@ body {
 }
 
 .section-main__item {
+	width: 110px;
+	padding-bottom: 12.86px;
+	text-align: center;
+	transition: all 0.7s;
 	a {
 		@include text-17px;
 		line-height: normal;
 		color: $white;
+	}
+
+	&:hover {
+		border-bottom: 1px solid $white;
+		transition: all 0.7s;
 	}
 }
 
