@@ -5,6 +5,7 @@
 /* Mixin */
 
 $white: #FFF;
+$yellow: #DCFF50;
 $gray: #999;
 $black: #151515;
 /* varabiles */
@@ -73,6 +74,12 @@ body {
 	gap: 14px;
 	a {
 		@include text-12px;
+	}
+
+	&:nth-child(2) {
+		svg {
+			background: $yellow;
+		}
 	}
 }
 

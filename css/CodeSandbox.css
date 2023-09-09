@@ -154,6 +154,9 @@ body {
   color: #999;
   text-align: center;
 }
+.header__item:nth-child(2) svg {
+  background: #DCFF50;
+}
 
 .header__block-button {
   display: flex;
