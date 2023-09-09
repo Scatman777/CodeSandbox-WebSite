@@ -328,3 +328,20 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.section-info__body {
+  display: flex;
+}
+
+.section-info__img img {
+  width: 1100px;
+  height: 620px;
+}
+
+.section-info__block-text {
+  text-align: center;
+}
+
+.section-info__sub-title {
+  margin-bottom: 15px;
+}

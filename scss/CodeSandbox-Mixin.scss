@@ -37,20 +37,20 @@
 	text-align: center;
 }
 
-@mixin text-12px {
-	font-family: 'Inter';
-	font-size: 12px;
-	font-weight: 400;
-	color: $gray;
-	text-align: center;
-}
-
 @mixin text-16px {
 	font-family: 'Inter';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 100%;
 	color: #151515;
+	text-align: center;
+}
+
+@mixin text-12px {
+	font-family: 'Inter';
+	font-size: 12px;
+	font-weight: 400;
+	color: $gray;
 	text-align: center;
 }
 
