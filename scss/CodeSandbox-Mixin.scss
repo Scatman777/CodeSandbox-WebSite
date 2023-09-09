@@ -1,0 +1,46 @@
+////////////////// FONT //////////////////
+@mixin h2 {
+	font-family: 'Roboto';
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 1.6px;
+	color: $white;
+	text-align: center;
+}
+
+@mixin text-35px {
+	font-family: 'Inter';
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 108.571%;
+	letter-spacing: 0.95px;
+	color: $white;
+	text-align: center;
+}
+
+@mixin text-17px{
+	font-family: 'Inter';
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 137.647%;
+	color: $gray;
+	text-align: center;
+}
+
+@mixin text-12px{
+	font-family: 'Inter';
+	font-size: 12px;
+	font-weight: 400;
+	color: $gray;
+	text-align: center;
+}
+
+@mixin text-16px {
+	font-family: 'Inter';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 100%;
+	color: #151515;
+	text-align: center;
+}
