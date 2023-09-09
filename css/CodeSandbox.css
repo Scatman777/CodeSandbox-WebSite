@@ -143,6 +143,7 @@ body {
 }
 
 .header__item {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -154,7 +155,14 @@ body {
   color: #999;
   text-align: center;
 }
-.header__item:nth-child(2) svg {
+
+.header__number {
+  position: relative;
+  right: 10px;
+  bottom: 9px;
+  width: 16px;
+  height: 16px;
+  padding: 2px 5px;
   background: #DCFF50;
 }
 

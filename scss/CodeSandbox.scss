@@ -69,18 +69,24 @@ body {
 }
 
 .header__item {
+	position: relative;
 	display: flex;
 	align-items: center;
 	gap: 14px;
+	
 	a {
 		@include text-12px;
 	}
+}
 
-	&:nth-child(2) {
-		svg {
-			background: $yellow;
-		}
-	}
+.header__number {
+	position: relative;
+    right: 10px;
+    bottom: 9px;
+	width: 16px;
+	height: 16px;
+	padding: 2px 5px;
+	background: $yellow;
 }
 
 .header__block-button {
