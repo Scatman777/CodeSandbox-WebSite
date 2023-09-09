@@ -85,7 +85,7 @@ body {
     bottom: 9px;
 	width: 16px;
 	height: 16px;
-	padding: 2px 5px;
+	padding: 1px 4px;
 	background: $yellow;
 }
 
@@ -124,6 +124,7 @@ body {
 }
 
 .section-main__block-title {
+	text-align: center;
 }
 
 .section-main__sub-title {
