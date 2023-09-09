@@ -125,6 +125,7 @@ body {
 
 .section-main__block-title {
 	text-align: center;
+	margin-bottom: 341px;
 }
 
 .section-main__sub-title {
@@ -148,6 +149,43 @@ body {
 
 	a {
 		font-size: 16px;
+	}
+}
+
+.section-main__block-setup {
+	display: flex;
+	flex-direction: column;
+	gap: 131px;
+}
+
+.section-main__column-text {
+	display: flex;
+	flex-direction: column;
+	gap: 46.14px;
+}
+
+.section-main__list {
+	display: flex;
+	gap: 33px;
+}
+
+.section-main__item {
+	a {
+		@include text-17px;
+		line-height: normal;
+		color: $white;
+	}
+}
+
+.section-main__text-setup {
+	@include text-18px;
+}
+
+.section-main__img-setup {
+	img {
+		width: 1024px;
+		height: 577px;
+		object-fit: cover;
 	}
 }
 
