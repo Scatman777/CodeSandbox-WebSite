@@ -448,10 +448,11 @@ body {
 	padding: 67px 65px 60px 65px;
 }
 
-.section-info__item {
+.block-comments__item {
 	max-width: 341px;
 	width: 100%;
 	height: 100%;
+	text-align: center
 }
 
 .block-comments__comment {
@@ -475,12 +476,9 @@ body {
 		&:nth-child(2) {
 			width: 42px;
 			height: 42px;
+			position: absolute;
+			transform: translate(-7px, 25px);
 		}
-	}
-
-	svg {
-		position: absolute;
-		transform: translate(-7px, 25px);
 	}
 }
 
