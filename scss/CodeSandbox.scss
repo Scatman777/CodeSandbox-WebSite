@@ -326,8 +326,7 @@ body {
 
 /* BLOCK-COLLABORATION */
 .section-info__block-collaboration {
-}
-.block-collaboration {
+	margin-bottom: 315px;
 }
 
 .block-collaboration__block-text {
@@ -373,14 +372,11 @@ body {
 	@include text-17px
 }
 
+
 /* BLOCK-EXPERIENCE */
-.section-info__body-column {
-}
-
 .section-info__block-experience {
-}
-
-.block-experience {
+	background: url("/img/Group.svg") center / cover no-repeat;
+	margin-bottom: 475px;
 }
 
 .block-experience__block-text {
@@ -443,6 +439,7 @@ body {
 .block-comments__block-column {
 	display: flex;
 	justify-content: space-between;
+	gap: 38px;
 }
 
 .block-comments__column {
@@ -477,10 +474,13 @@ body {
 }
 
 .block-comments__name {
-	@include 
+	@include text-17px;
+	line-height: 169.412%;
 }
 
 .block-comments__profession {
+	@include text-12px;
+	line-height: 160%;
 }
 
 ////////////////// FOOTER //////////////////

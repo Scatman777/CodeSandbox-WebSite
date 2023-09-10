@@ -459,6 +459,10 @@ body {
 }
 
 /* BLOCK-COLLABORATION */
+.section-info__block-collaboration {
+  margin-bottom: 315px;
+}
+
 .block-collaboration__block-text {
   display: flex;
   flex-direction: column;
@@ -517,6 +521,11 @@ body {
 }
 
 /* BLOCK-EXPERIENCE */
+.section-info__block-experience {
+  background: url("/img/Group.svg") center/cover no-repeat;
+  margin-bottom: 475px;
+}
+
 .block-experience__block-text {
   display: flex;
   flex-direction: column;
@@ -594,6 +603,7 @@ body {
 .block-comments__block-column {
   display: flex;
   justify-content: space-between;
+  gap: 38px;
 }
 
 .block-comments__column {
@@ -628,4 +638,23 @@ body {
 }
 .block-comments__avatar svg {
   transform: translate();
+}
+
+.block-comments__name {
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 137.647%;
+  color: #999;
+  text-align: center;
+  line-height: 169.412%;
+}
+
+.block-comments__profession {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  text-align: center;
+  line-height: 160%;
 }
