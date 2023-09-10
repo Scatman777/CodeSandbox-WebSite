@@ -458,6 +458,7 @@ body {
   height: 67px;
 }
 
+/* BLOCK-COLLABORATION */
 .block-collaboration__block-text {
   display: flex;
   flex-direction: column;
@@ -507,6 +508,64 @@ body {
 }
 
 .block-collabration__text-column {
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 137.647%;
+  color: #999;
+  text-align: center;
+}
+
+/* BLOCK-EXPERIENCE */
+.block-experience__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.block-experience__title {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.2px;
+  color: #FFF;
+  text-align: center;
+}
+
+.block-experience__block-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+}
+
+.block-experience__column {
+  border-radius: 4px;
+  background: #151515;
+  padding: 64px 65px 75px 65px;
+}
+
+.section-info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 341px;
+  width: 100%;
+  height: 100%;
+}
+
+.block-experience__title-column {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.3px;
+  color: #FFF;
+  text-align: center;
+}
+
+.block-experience__text-column {
   font-family: "Inter";
   font-size: 17px;
   font-weight: 400;
