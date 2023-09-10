@@ -643,6 +643,10 @@ body {
   width: 64px;
   height: 64px;
 }
+.block-comments__avatar img:nth-child(2) {
+  width: 42px;
+  height: 42px;
+}
 .block-comments__avatar svg {
   position: absolute;
   transform: translate(-7px, 25px);

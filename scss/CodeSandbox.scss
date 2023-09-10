@@ -471,6 +471,11 @@ body {
 	img {
 		width: 64px;
 		height: 64px;
+
+		&:nth-child(2) {
+			width: 42px;
+			height: 42px;
+		}
 	}
 
 	svg {
