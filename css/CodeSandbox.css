@@ -333,6 +333,7 @@ body {
 .section-info__body {
   display: flex;
   flex-direction: column;
+  margin-bottom: 343px;
 }
 
 .section-info__img {
