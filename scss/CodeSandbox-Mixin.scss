@@ -29,6 +29,16 @@
 	text-align: center;
 }
 
+@mixin text-24px {
+	font-family: 'Roboto';
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 120%;
+	letter-spacing: 0.3px;
+	color: $white;
+	text-align: center;
+}
+
 @mixin text-18px {
 	font-family: 'Inter';
 	font-size: 18px;
@@ -54,6 +64,12 @@
 	line-height: 100%;
 	color: #151515;
 	text-align: center;
+}
+
+@media text-15px {
+	@include text-17px;
+	font-size: 15px;
+	line-height: 170.667%;
 }
 
 @mixin text-12px {
