@@ -670,3 +670,56 @@ body {
   text-align: center;
   line-height: 160%;
 }
+
+/* SECTION-SLIDER */
+.section-slider__body {
+  display: flex;
+  flex-direction: column;
+  gap: 152px;
+}
+
+.section-slider__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.section-slider__title {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.2px;
+  color: #FFF;
+  text-align: center;
+  font-size: 47px;
+  line-height: 102.128%;
+}
+
+.section-slider__text {
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 137.647%;
+  color: #999;
+  text-align: center;
+}
+
+.section-slider__button {
+  border-radius: 4px;
+  background: #EAFF96;
+  padding: 6px 8px 10px 8px;
+  transition: all 0.6s;
+}
+.section-slider__button a {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #151515;
+  text-align: center;
+}
+.section-slider__button:hover {
+  transition: all 0.6s;
+  background: rgba(234, 255, 150, 0.7333333333);
+}

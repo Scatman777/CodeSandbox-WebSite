@@ -207,6 +207,7 @@ body {
 .section-info__body {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 343px;
 }
 
 .section-info__img {
@@ -491,6 +492,49 @@ body {
 .block-comments__profession {
 	@include text-12px;
 	line-height: 160%;
+}
+
+/* SECTION-SLIDER */
+.section-slider__body {
+	display: flex;
+	flex-direction: column;
+	gap: 152px;
+}
+
+.section-slider__block-text {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.section-slider__title {
+	@include h3;
+	font-size: 47px;
+	line-height: 102.128%;
+}
+
+.section-slider__text {
+	@include text-17px;
+}
+
+.section-slider__button {
+	@include button;
+}
+
+.swiper {
+}
+
+.swiper__block-img {
+	dis
+}
+
+.swiper-wrapper {
+}
+
+.swiper__img {
+}
+
+.swiper-slide {
 }
 
 ////////////////// FOOTER //////////////////
