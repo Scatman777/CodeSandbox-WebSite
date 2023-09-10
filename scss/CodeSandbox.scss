@@ -375,6 +375,9 @@ body {
 
 /* BLOCK-EXPERIENCE */
 .section-info__block-experience {
+	display: flex;
+	flex-direction: column;
+	gap: 85px;
 	background: url("/img/Group.svg") center / cover no-repeat;
 	margin-bottom: 475px;
 }
@@ -387,9 +390,6 @@ body {
 
 .block-experience__title {
 	@include h3;
-}
-
-.block-experience__text {
 }
 
 .block-experience__block-column {
@@ -445,7 +445,7 @@ body {
 .block-comments__column {
 	border-radius: 4px;
 	background: $black;
-	padding: 67px 70px 60px 70px;
+	padding: 67px 65px 60px 65px;
 }
 
 .section-info__item {
@@ -469,12 +469,14 @@ body {
 	}
 
 	svg {
-		transform: translate();
+		position: absolute;
+		transform: translate(-7px, 25px);
 	}
 }
 
 .block-comments__name {
 	@include text-17px;
+	color: $white;
 	line-height: 169.412%;
 }
 
