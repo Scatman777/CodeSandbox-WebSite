@@ -417,3 +417,28 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.section-info__avatar:nth-child(1) img {
+  width: 59px;
+  height: 59px;
+}
+.section-info__avatar:nth-child(2) img {
+  width: 91px;
+  height: 91px;
+}
+.section-info__avatar:nth-child(3) img {
+  width: 84px;
+  height: 84px;
+}
+.section-info__avatar:nth-child(4) img {
+  width: 70px;
+  height: 70px;
+}
+.section-info__avatar:nth-child(5) img {
+  width: 77px;
+  height: 77px;
+}
+.section-info__avatar:nth-child(61) img {
+  width: 67px;
+  height: 67px;
+}

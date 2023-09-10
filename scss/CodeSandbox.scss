@@ -276,6 +276,42 @@ body {
 }
 
 .section-info__avatar {
+	&:nth-child(1) {
+		img {
+			width: 59px;
+			height: 59px;
+		}
+	}
+	&:nth-child(2) {
+		img {
+			width: 91px;
+			height: 91px;
+		}
+	}
+	&:nth-child(3) {
+		img {
+			width: 84px;
+			height: 84px;
+		}
+	}
+	&:nth-child(4) {
+		img {
+			width: 70px;
+			height: 70px;
+		}
+	}
+	&:nth-child(5) {
+		img {
+			width: 77px;
+			height: 77px;
+		}
+	}
+	&:nth-child(61) {
+		img {
+			width: 67px;
+			height: 67px;
+		}
+	}
 }
 
 ////////////////// FOOTER //////////////////
