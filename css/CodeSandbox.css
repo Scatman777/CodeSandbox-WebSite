@@ -330,10 +330,9 @@ body {
      object-fit: cover;
 }
 
-.section-info__body {
+.section-info__main-block {
   display: flex;
   flex-direction: column;
-  margin-bottom: 343px;
 }
 
 .section-info__img {
