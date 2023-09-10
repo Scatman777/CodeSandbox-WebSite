@@ -630,6 +630,10 @@ body {
   text-align: center;
   line-height: 169.412%;
   color: #FFF;
+  margin-bottom: 35px;
+}
+.block-comments__comment:nth-child(1) {
+  margin-bottom: 10px;
 }
 
 .block-comments__avatar {
