@@ -477,6 +477,7 @@ body {
 .block-collaboration__block-column {
   display: flex;
   justify-content: space-between;
+  gap: 38px;
 }
 
 .block-collaboration__column {
