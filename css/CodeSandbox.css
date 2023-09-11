@@ -770,3 +770,34 @@ body {
 .footer {
   border-top: 1px solid #343434;
 }
+
+.footer__block-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 140px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__title {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #FFF;
+  text-align: center;
+  font-size: 19px;
+  line-height: 121.053%;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

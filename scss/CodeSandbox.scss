@@ -575,23 +575,43 @@ body {
 }
 
 .footer__block-navigation {
+	display: flex;
+	justify-content: space-between;
 }
 
-.footer__block-column {
-}
 .footer__column {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 140px;
+	width: 100%;
+	height: 100%;
 }
+
 .footer__title {
+	@include text-18px;
+	font-size: 19px;
+	line-height: 121.053%;
 }
+
 .footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
+
 .footer__item {
+
 }
+
 .footer__number {
 }
+
 .footer__block-down {
 }
+
 .footer__icon-column {
 }
+
 .footer__text-down {
 }
