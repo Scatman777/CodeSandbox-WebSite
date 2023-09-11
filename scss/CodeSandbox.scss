@@ -533,17 +533,20 @@ body {
 .swiper {
 }
 
-.swiper__block-img {
-	
+.swiper__block-img .swiper-wrapper {
+	display: flex;
 }
 
-.swiper-wrapper {
+.swiper__block-img .swiper-slide {
+	display: flex;
 }
 
 .swiper__img {
-}
-
-.swiper-slide {
+	img {
+		width: 611px;
+		height: 323px;
+		object-fit: cover;
+	}
 }
 
 ////////////////// FOOTER //////////////////
