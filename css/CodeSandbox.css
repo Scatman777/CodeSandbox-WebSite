@@ -800,6 +800,7 @@ body {
   text-align: center;
   font-size: 19px;
   line-height: 121.053%;
+  text-align: start;
 }
 
 .footer__list {
@@ -817,6 +818,15 @@ body {
   text-align: center;
   font-size: 15px;
   line-height: 170.667%;
+}
+
+.footer__number {
+  position: relative;
+  right: 10px;
+  bottom: 9px;
+  padding: 3px 5px;
+  font-size: 10px;
+  background: #DCFF50;
 }
 
 .footer__block-down {
@@ -839,4 +849,5 @@ body {
   text-align: center;
   color: #999;
   line-height: 160%;
+  text-align: start;
 }

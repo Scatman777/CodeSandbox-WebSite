@@ -598,6 +598,7 @@ body {
 	@include text-18px;
 	font-size: 19px;
 	line-height: 121.053%;
+	text-align: start;
 }
 
 .footer__list {
@@ -611,6 +612,12 @@ body {
 }
 
 .footer__number {
+	position: relative;
+    right: 10px;
+    bottom: 9px;
+	padding: 3px 5px;
+	font-size: 10px;
+	background: $yellow;
 }
 
 .footer__block-down {
@@ -628,4 +635,5 @@ body {
 	@include text-16px;
 	color: $gray;
 	line-height: 160%;
+	text-align: start;
 }
