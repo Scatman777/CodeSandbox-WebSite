@@ -733,15 +733,16 @@ body {
   background: rgba(234, 255, 150, 0.7333333333);
 }
 
+.swiper {
+  min-width: 0;
+}
+
 .swiper__block-img .swiper-wrapper {
   display: flex;
+  min-width: 0;
 }
 
-.swiper__block-img .swiper-slide {
-  display: flex;
-}
-
-.swiper__img img {
+.swiper__block-img .swiper-slide img {
   width: 611px;
   height: 323px;
   -o-object-fit: cover;

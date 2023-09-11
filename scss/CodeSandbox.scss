@@ -531,17 +531,15 @@ body {
 }
 
 .swiper {
+	min-width: 0;
 }
 
 .swiper__block-img .swiper-wrapper {
 	display: flex;
+	min-width: 0;
 }
 
 .swiper__block-img .swiper-slide {
-	display: flex;
-}
-
-.swiper__img {
 	img {
 		width: 611px;
 		height: 323px;
