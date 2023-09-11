@@ -771,6 +771,13 @@ body {
   border-top: 1px solid #343434;
 }
 
+.footer__body {
+  display: flex;
+  flex-direction: column;
+  gap: 137px;
+  margin: 97.31px 0px 32px;
+}
+
 .footer__block-navigation {
   display: flex;
   justify-content: space-between;
