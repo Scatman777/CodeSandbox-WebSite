@@ -97,6 +97,9 @@ body {
 
 .header__button {
 	@include button;
+	a {
+		font-size: 12px;
+	}
 }
 
 ////////////////// MAIN //////////////////
