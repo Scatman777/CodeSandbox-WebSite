@@ -741,6 +741,9 @@ body {
   min-width: 0;
 }
 
+.swiper .swiper-slide {
+  transition: all 0.6s;
+}
 .swiper .swiper-slide:nth-child(1) {
   transform: translateY(-34px);
 }
@@ -752,6 +755,10 @@ body {
 }
 .swiper .swiper-slide:nth-child(4) {
   z-index: 2;
+}
+.swiper .swiper-slide:hover {
+  transform: translateY(-58px);
+  transition: all 0.6s;
 }
 .swiper .swiper-slide img {
   width: 611px;
