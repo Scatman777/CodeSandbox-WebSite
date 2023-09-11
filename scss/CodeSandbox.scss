@@ -601,7 +601,7 @@ body {
 }
 
 .footer__item {
-
+	@include text-15px;
 }
 
 .footer__number {
