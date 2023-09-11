@@ -83,9 +83,8 @@ body {
 	position: relative;
     right: 10px;
     bottom: 9px;
-	width: 16px;
-	height: 16px;
-	padding: 1px 4px;
+	padding: 3px 6px;
+	font-size: 10px;
 	background: $yellow;
 }
 
@@ -615,10 +614,18 @@ body {
 }
 
 .footer__block-down {
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
 }
 
 .footer__icon-column {
+	display: flex;
+	gap: 10px;
 }
 
 .footer__text-down {
+	@include text-16px;
+	color: $gray;
+	line-height: 160%;
 }

@@ -160,9 +160,8 @@ body {
   position: relative;
   right: 10px;
   bottom: 9px;
-  width: 16px;
-  height: 16px;
-  padding: 1px 4px;
+  padding: 3px 6px;
+  font-size: 10px;
   background: #DCFF50;
 }
 
@@ -818,4 +817,26 @@ body {
   text-align: center;
   font-size: 15px;
   line-height: 170.667%;
+}
+
+.footer__block-down {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.footer__icon-column {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__text-down {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #151515;
+  text-align: center;
+  color: #999;
+  line-height: 160%;
 }
