@@ -1,4 +1,4 @@
-var swiper = new swiper(".swiper", {
+var swiper = new Swiper(".swiper", {
 	watchOverflow: true,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
