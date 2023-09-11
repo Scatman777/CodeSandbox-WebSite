@@ -533,15 +533,24 @@ body {
 	padding: 12px;
 }
 
-.swiper {
-}
-
-.swiper__block-img .swiper-wrapper {
+.swiper .swiper-wrapper {
 	display: flex;
 	min-width: 0;
 }
 
-.swiper__block-img .swiper-slide {
+.swiper .swiper-slide {
+	&:nth-child(1) {
+		transform: translateY(-34px);
+	}
+
+	&:nth-child(2) {
+		transform: translateY(-24px);
+	}
+
+	&:nth-child(3) {
+		transform: translateY(-14px);
+	}
+
 	img {
 		width: 611px;
 		height: 323px;
