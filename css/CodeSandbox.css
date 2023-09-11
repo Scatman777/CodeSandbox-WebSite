@@ -809,7 +809,7 @@ body {
   gap: 8px;
 }
 
-.footer__item {
+.footer__item a {
   font-family: "Inter";
   font-size: 17px;
   font-weight: 400;
@@ -818,6 +818,7 @@ body {
   text-align: center;
   font-size: 15px;
   line-height: 170.667%;
+  text-align: start;
 }
 
 .footer__number {
@@ -849,5 +850,4 @@ body {
   text-align: center;
   color: #999;
   line-height: 160%;
-  text-align: start;
 }

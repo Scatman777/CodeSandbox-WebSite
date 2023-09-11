@@ -608,7 +608,10 @@ body {
 }
 
 .footer__item {
-	@include text-15px;
+	a {
+		@include text-15px;
+		text-align: start;
+	}
 }
 
 .footer__number {
@@ -635,5 +638,4 @@ body {
 	@include text-16px;
 	color: $gray;
 	line-height: 160%;
-	text-align: start;
 }
