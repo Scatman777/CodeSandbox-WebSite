@@ -766,3 +766,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.footer {
+  border-top: 1px solid #343434;
+}
