@@ -149,6 +149,10 @@ body {
 	@include button;
 	padding: 12px;
 
+	svg {
+		vertical-align: top;
+	}
+
 	a {
 		font-size: 16px;
 	}
