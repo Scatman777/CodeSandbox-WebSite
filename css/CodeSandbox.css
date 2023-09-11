@@ -733,10 +733,6 @@ body {
   background: rgba(234, 255, 150, 0.7333333333);
 }
 
-.swiper {
-  min-width: 0;
-}
-
 .swiper__block-img .swiper-wrapper {
   display: flex;
   min-width: 0;

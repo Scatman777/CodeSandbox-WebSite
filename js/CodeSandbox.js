@@ -5,4 +5,5 @@ var swiper = new Swiper(".swiper", {
 	slidesPerColumn: 1,
 	dots: false,
 	keyboard: true,
+	mousewheel: true
   });
