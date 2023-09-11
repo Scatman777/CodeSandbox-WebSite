@@ -87,12 +87,7 @@
 	transition: all 0.6s;
 
 	a {
-		font-family: 'Inter';
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 100%;
-		color: $black;
-		text-align: center;
+		@include text-16px;
 	}
 
 	&:hover {

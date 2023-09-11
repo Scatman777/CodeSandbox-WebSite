@@ -180,7 +180,7 @@ body {
 }
 .header__button a {
   font-family: "Inter";
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 100%;
   color: #151515;
@@ -259,7 +259,7 @@ body {
 }
 .section-main__button a {
   font-family: "Inter";
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 100%;
   color: #151515;
@@ -685,6 +685,7 @@ body {
 .section-slider__block-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 28px;
 }
 
@@ -714,10 +715,11 @@ body {
   background: #EAFF96;
   padding: 6px 8px 10px 8px;
   transition: all 0.6s;
+  padding: 12px;
 }
 .section-slider__button a {
   font-family: "Inter";
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 100%;
   color: #151515;
