@@ -750,6 +750,9 @@ body {
 .swiper .swiper-slide:nth-child(3) {
   transform: translateY(-14px);
 }
+.swiper .swiper-slide:nth-child(4) {
+  z-index: 2;
+}
 .swiper .swiper-slide img {
   width: 611px;
   height: 323px;
