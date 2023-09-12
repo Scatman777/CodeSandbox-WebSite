@@ -609,7 +609,7 @@ body {
 
 .footer__item {
 	position: relative;
-	
+
 	a {
 		@include text-15px;
 		text-align: start;
@@ -620,6 +620,7 @@ body {
 	position: absolute;
     right: 10px;
     bottom: 9px;
+	width: 16px;
 	padding: 3px 5px;
 	font-size: 10px;
 	background: $yellow;

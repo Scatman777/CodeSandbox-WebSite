@@ -809,6 +809,9 @@ body {
   gap: 8px;
 }
 
+.footer__item {
+  position: relative;
+}
 .footer__item a {
   font-family: "Inter";
   font-size: 17px;
@@ -822,9 +825,10 @@ body {
 }
 
 .footer__number {
-  position: relative;
+  position: absolute;
   right: 10px;
   bottom: 9px;
+  width: 16px;
   padding: 3px 5px;
   font-size: 10px;
   background: #DCFF50;
@@ -833,6 +837,7 @@ body {
 .footer__block-down {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 11px;
 }
 
