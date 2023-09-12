@@ -335,6 +335,10 @@ body {
      object-fit: cover;
 }
 
+.section-info {
+  background: url(/img/Group.svg) center 66.7% no-repeat;
+}
+
 .section-info__body {
   margin-bottom: 343px;
 }
@@ -534,7 +538,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 85px;
-  background: url("/img/Group.svg") center/cover no-repeat;
   margin-bottom: 475px;
 }
 
