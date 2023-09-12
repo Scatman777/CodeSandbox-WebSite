@@ -1,6 +1,6 @@
 var swiper = new Swiper(".swiper", {
 	watchOverflow: true,
-	slidesPerView: 3,
+	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	dots: false,
