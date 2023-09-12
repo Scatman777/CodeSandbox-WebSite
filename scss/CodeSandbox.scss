@@ -608,6 +608,8 @@ body {
 }
 
 .footer__item {
+	position: relative;
+	
 	a {
 		@include text-15px;
 		text-align: start;
@@ -615,7 +617,7 @@ body {
 }
 
 .footer__number {
-	position: relative;
+	position: absolute;
     right: 10px;
     bottom: 9px;
 	padding: 3px 5px;
@@ -626,6 +628,7 @@ body {
 .footer__block-down {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 11px;
 }
 
