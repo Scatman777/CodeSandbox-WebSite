@@ -458,18 +458,6 @@ body {
   width: 84px;
   height: 84px;
 }
-.section-info__avatars-left:nth-child(4) img {
-  width: 70px;
-  height: 70px;
-}
-.section-info__avatars-left:nth-child(5) img {
-  width: 77px;
-  height: 77px;
-}
-.section-info__avatars-left:nth-child(6) img {
-  width: 67px;
-  height: 67px;
-}
 
 .section-info__avatars-right {
   display: flex;
