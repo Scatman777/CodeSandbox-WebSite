@@ -334,6 +334,7 @@ body {
 	.section-info__avatar {
 		&:nth-child(1) {
 			position: absolute;
+			top: 11px;
 			right: 157px;
 
 			img {
