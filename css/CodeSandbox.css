@@ -441,20 +441,19 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.section-info__avatars-left:nth-child(1) img {
+.section-info__avatars-left .section-info__avatar:nth-child(1) img {
   width: 59px;
   height: 59px;
 }
-.section-info__avatars-left:nth-child(2) {
-  position: absolute;
+.section-info__avatars-left .section-info__avatar:nth-child(2) {
   top: 124px;
   left: -19px;
 }
-.section-info__avatars-left:nth-child(2) img {
+.section-info__avatars-left .section-info__avatar:nth-child(2) img {
   width: 91px;
   height: 91px;
 }
-.section-info__avatars-left:nth-child(3) img {
+.section-info__avatars-left .section-info__avatar:nth-child(3) img {
   width: 84px;
   height: 84px;
 }
@@ -463,20 +462,19 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.section-info__avatars-right:nth-child(1) img {
+.section-info__avatars-right .section-info__avatar:nth-child(1) img {
   width: 59px;
   height: 59px;
 }
-.section-info__avatars-right:nth-child(2) {
-  position: absolute;
+.section-info__avatars-right .section-info__avatar:nth-child(2) {
   top: 124px;
   right: -19px;
 }
-.section-info__avatars-right:nth-child(2) img {
+.section-info__avatars-right .section-info__avatar:nth-child(2) img {
   width: 91px;
   height: 91px;
 }
-.section-info__avatars-right:nth-child(3) img {
+.section-info__avatars-right .section-info__avatar:nth-child(3) img {
   width: 84px;
   height: 84px;
 }
