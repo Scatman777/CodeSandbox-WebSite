@@ -432,6 +432,7 @@ body {
 }
 
 .section-info__avtar-column {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -440,12 +441,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-.section-info__avatars-right {
-  display: flex;
-  justify-content: space-between;
-}
-
 .section-info__avatars-left:nth-child(1) img {
   width: 59px;
   height: 59px;
@@ -476,6 +471,10 @@ body {
   height: 67px;
 }
 
+.section-info__avatars-right {
+  display: flex;
+  justify-content: space-between;
+}
 .section-info__avatars-right:nth-child(1) img {
   width: 59px;
   height: 59px;
