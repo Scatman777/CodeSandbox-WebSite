@@ -333,17 +333,19 @@ body {
 
 	.section-info__avatar {
 		&:nth-child(1) {
+			position: absolute;
+			right: 157px;
+
 			img {
-				width: 59px;
-				height: 59px;
+				width: 70px;
+				height: 70px;
 			}
 		}
 	
 		&:nth-child(2) {
 			position: absolute;
-			top: 124px;
-			right: -19px;
-			
+			right: -22px;
+
 			img {
 				width: 91px;
 				height: 91px;
