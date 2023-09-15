@@ -290,6 +290,7 @@ body {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
+	transform: translateY(-120px);
 }
 
 .section-info__avatars-left {
@@ -317,6 +318,7 @@ body {
 	
 		&:nth-child(3) {
 			position: absolute;
+			top: -10px;
     		left: 120px;
 
 			img {
@@ -334,12 +336,15 @@ body {
 	.section-info__avatar {
 		&:nth-child(1) {
 			position: absolute;
-			top: 11px;
+			top: 10px;
 			right: 157px;
+			width: 70px;
+			height: 70px;
 
 			img {
 				width: 70px;
 				height: 70px;
+				object-fit: cover;
 			}
 		}
 	
@@ -356,7 +361,7 @@ body {
 		&:nth-child(3) {
 			position: absolute;
 			top: 124px;
-			right: -19px;
+			right: -18px;
 
 			img {
 				width: 84px;
