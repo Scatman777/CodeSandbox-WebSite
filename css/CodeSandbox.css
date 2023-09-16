@@ -890,3 +890,10 @@ body {
   color: #999;
   line-height: 160%;
 }
+
+/* VARABILES-MEDIA */
+@media (max-width: 1110px) {
+  .header__block-button {
+    flex: 1 1 auto;
+  }
+}

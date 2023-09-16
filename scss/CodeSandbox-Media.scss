@@ -1,5 +1,15 @@
-///////////// MEIDA-HEADER /////////////
+@mixin MEDIA-ALL {
+	/* VARABILES-MEDIA */
+	$media-notebook: 1110px;
 
-///////////// MEIDA-MAIN /////////////
+	///////////// MEIDA-HEADER /////////////
+	@media (max-width: $media-notebook) {
+		.header__block-button {
+			flex: 1 1 auto;
+		}
+	}
 
-///////////// MEIDA-FOOTER /////////////
+	///////////// MEIDA-MAIN /////////////
+
+	///////////// MEIDA-FOOTER /////////////
+}
