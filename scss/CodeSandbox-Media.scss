@@ -2,6 +2,7 @@
 	/* VARABILES-MEDIA */
 	$media-notebook: 1110px;
 	$media-tablet: 768px;
+	$media-phone: 425px;
 
 	///////////// MEIDA-HEADER /////////////
 	@media (max-width: $media-notebook) {
@@ -51,7 +52,7 @@
 		}
 
 		.section-main__title {
-			font-size: 35px;
+			font-size: 40px;
 		}
 
 		.section-main__text {
@@ -62,6 +63,12 @@
 			a {
 				font-size: 14px;
 			}
+		}
+	}
+
+	@media (max-width: $media-phone) {
+		.section-main__title {
+			
 		}
 	}
 
