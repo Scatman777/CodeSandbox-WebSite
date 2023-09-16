@@ -1,9 +1,6 @@
 @import "CodeSandbox-Null-Style.scss";
 /* Null */
 
-@import "CodeSandbox-Mixin.scss";
-/* Mixin */
-
 $white: #FFF;
 $yellow: #DCFF50;
 $gray: #999;
@@ -680,3 +677,8 @@ body {
 	color: $gray;
 	line-height: 160%;
 }
+
+/* Mixin */
+@import "CodeSandbox-Mixin.scss";
+
+@import "CodeSandbox-Media.scss";
