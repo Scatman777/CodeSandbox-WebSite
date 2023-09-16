@@ -929,17 +929,19 @@ label {
   cursor: pointer;
 }
 
-input[type=checkbox]:checked ~ .HeaderBurger-list,
+input[type=checkbox]:checked ~ .HeaderBurger__list,
 .homelanguages-wrapper {
   right: 0px;
   transform: translateX(0vw);
 }
 
-.HeaderBurger-list {
+.HeaderBurger__list {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  background: #FFF;
+  background: rgba(0, 0, 0, 0.831372549);
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -966,8 +968,8 @@ input[type=checkbox]:checked ~ .HeaderBurger-list,
   background-color: grey;
   position: absolute;
   transform: rotate(45deg);
-  top: 4.0625rem;
-  right: 2.5rem;
+  top: 2.0625rem;
+  right: 10rem;
 }
 
 .Burger-menu-close::before {
@@ -992,7 +994,20 @@ input[type=checkbox]:checked ~ .HeaderBurger-list,
   .header__list {
     display: none;
   }
+  .header__number {
+    position: absolute;
+    top: -3px;
+    right: -22px;
+    width: 16px;
+  }
   .Header__Burger {
     display: flex;
+  }
+}
+/* SECTION-MAIN */
+@media (max-width: 1110px) {
+  .section-main__img img {
+    width: 100%;
+    height: 100%;
   }
 }

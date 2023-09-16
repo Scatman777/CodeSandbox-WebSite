@@ -145,9 +145,11 @@
 
     .HeaderBurger__list {
         display: flex;
+		flex-direction: column;
+		gap: 30px;
         justify-content: center;
         align-items: center;
-        background: $white;
+        background: #000000d4;
         position: fixed;
         width: 100vw;
         height: 100vh;
@@ -171,8 +173,8 @@
         background-color: grey;
         position: absolute;
         transform: rotate(45deg);
-        top: 4.0625rem;
-        right: 2.5rem;
+        top: 2.0625rem;
+        right: 10rem;
     }
 
     .Burger-menu-close::before {
