@@ -1013,3 +1013,14 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   }
 }
 /* SECTION-MAIN */
+/* SECTION-INFO */
+@media (max-width: 1110px) {
+  .block-experience__block-column {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .block-comments__block-column {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
