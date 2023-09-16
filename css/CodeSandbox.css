@@ -139,6 +139,7 @@ body {
 
 .header__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 48px;
 }
@@ -895,5 +896,10 @@ body {
 @media (max-width: 1110px) {
   .header__block-button {
     flex: 1 1 auto;
+  }
+}
+@media (max-width: 1010px) {
+  .header__list {
+    gap: 30px;
   }
 }
