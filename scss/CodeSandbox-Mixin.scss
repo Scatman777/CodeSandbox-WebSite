@@ -161,6 +161,11 @@
     }
 
     .HeaderBurger__item {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #ffff007d;
+		padding-bottom: 10px;
+		
 		a {
 			@include text-18px;
 		}

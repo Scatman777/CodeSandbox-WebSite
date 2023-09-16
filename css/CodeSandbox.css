@@ -1027,6 +1027,14 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
     font-size: 14px;
   }
 }
+@media (max-width: 425px) {
+  .section-main__sub-title {
+    font-size: 7vw;
+  }
+  .section-main__title {
+    font-size: 9vw;
+  }
+}
 /* SECTION-INFO */
 @media (max-width: 1110px) {
   .block-collaboration__block-column {
