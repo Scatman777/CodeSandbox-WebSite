@@ -15,6 +15,16 @@
 		}
 	}
 
+	@media (max-width: 930px) {
+		.header__list {
+			display: none;
+		}
+
+		.header__burger {
+			display: flex;
+		}
+	}
+
 	///////////// MEIDA-MAIN /////////////
 
 	///////////// MEIDA-FOOTER /////////////

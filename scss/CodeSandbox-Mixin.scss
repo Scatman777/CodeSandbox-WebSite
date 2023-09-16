@@ -98,7 +98,6 @@
 
 ////////////////// BURGER //////////////////
 @mixin Burger {
-
     .header__burger {
         display: none;
         justify-content: flex-end;
@@ -195,6 +194,4 @@
             color: $blue;
         }
     }
-
-    @include media__header;
 }
