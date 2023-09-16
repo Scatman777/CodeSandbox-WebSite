@@ -98,7 +98,7 @@
 
 ////////////////// BURGER //////////////////
 @mixin Burger {
-    .header__burger {
+    .Header__Burger {
         display: none;
         justify-content: flex-end;
         align-items: center;
@@ -106,16 +106,16 @@
         margin: 0px 0px 0px 78px;
     }
 
-    .headerburger-menu,
-    .headerburger-menu:after,
-    .headerburger-menu:before {
+    .HeaderBurger-menu,
+    .HeaderBurger-menu:after,
+    .HeaderBurger-menu:before {
         width: 30px;
         height: 3px;
         background-color: $white;
         border-radius: 10px;
     }
 
-    .headerburger-menu {
+    .HeaderBurger-menu {
         position: relative;
         display: flex;
 
@@ -138,13 +138,13 @@
         cursor: pointer;
     }
 
-    input[type="checkbox"]:checked~.headerburger-list,
+    input[type="checkbox"]:checked~.HeaderBurger-list,
     .homelanguages-wrapper {
         right: 0px;
         transform: translateX(0vw);
     }
 
-    .headerburger-list {
+    .HeaderBurger-list {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -159,16 +159,14 @@
         z-index: 999;
     }
 
-    .headerburger-list a {
-        @include text-18px;
+    .HeaderBurger__item {
+		a {
+			@include text-18px;
+		}
     }
 
-    .headerburger-text {
-        padding: 0.625rem 0px;
-    }
-
-    .burger-menu-close,
-    .burger-menu-close::before {
+    .Burger-menu-close,
+    .Burger-menu-close::before {
         width: 33px;
         height: 4px;
         background-color: grey;
@@ -178,20 +176,10 @@
         right: 2.5rem;
     }
 
-    .burger-menu-close::before {
+    .Burger-menu-close::before {
         transform: rotate(90deg);
         content: "";
         top: 0;
         right: 0;
-    }
-
-    .header__lang-burger {
-        display: flex;
-        gap: 20px;
-
-        a {
-            @include text-16px;
-            color: $black;
-        }
     }
 }
