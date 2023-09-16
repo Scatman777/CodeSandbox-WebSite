@@ -955,6 +955,12 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   z-index: 999;
 }
 
+.HeaderBurger__item {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 0, 0.4901960784);
+  padding-bottom: 10px;
+}
 .HeaderBurger__item a {
   font-family: "Inter";
   font-size: 18px;

@@ -146,7 +146,7 @@
     .HeaderBurger__list {
         display: flex;
 		flex-direction: column;
-		gap: 30px;
+		gap: 15px;
         justify-content: center;
         align-items: center;
         background: #000000d4;
@@ -163,9 +163,9 @@
     .HeaderBurger__item {
 		width: 100%;
 		text-align: center;
-		border-bottom: 1px solid #ffff007d;
+		border-bottom: 1px solid $yellow;
 		padding-bottom: 10px;
-		
+
 		a {
 			@include text-18px;
 		}
