@@ -98,5 +98,103 @@
 
 ////////////////// BURGER //////////////////
 @mixin Burger {
-	
+
+    .header__burger {
+        display: none;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        margin: 0px 0px 0px 78px;
+    }
+
+    .headerburger-menu,
+    .headerburger-menu:after,
+    .headerburger-menu:before {
+        width: 30px;
+        height: 3px;
+        background-color: $white;
+        border-radius: 10px;
+    }
+
+    .headerburger-menu {
+        position: relative;
+        display: flex;
+
+        &::after {
+            position: absolute;
+            top: 8px;
+            right: 0;
+            content: '';
+        }
+
+        &::before {
+            position: absolute;
+            top: -8px;
+            right: 0;
+            content: '';
+        }
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked~.headerburger-list,
+    .homelanguages-wrapper {
+        right: 0px;
+        transform: translateX(0vw);
+    }
+
+    .headerburger-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $white;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        transform: translateX(-100vw);
+        transition: 0.7s;
+        left: 0;
+        top: 0;
+        z-index: 999;
+    }
+
+    .headerburger-list a {
+        @include text-18px;
+    }
+
+    .headerburger-text {
+        padding: 0.625rem 0px;
+    }
+
+    .burger-menu-close,
+    .burger-menu-close::before {
+        width: 33px;
+        height: 4px;
+        background-color: grey;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 4.0625rem;
+        right: 2.5rem;
+    }
+
+    .burger-menu-close::before {
+        transform: rotate(90deg);
+        content: "";
+        top: 0;
+        right: 0;
+    }
+
+    .header__lang-burger {
+        display: flex;
+        gap: 20px;
+
+        a {
+            @include text-16px;
+            color: $blue;
+        }
+    }
+
+    @include media__header;
 }
