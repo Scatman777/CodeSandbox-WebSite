@@ -903,3 +903,11 @@ body {
     gap: 30px;
   }
 }
+@media (max-width: 930px) {
+  .header__list {
+    display: none;
+  }
+  .header__burger {
+    display: flex;
+  }
+}
