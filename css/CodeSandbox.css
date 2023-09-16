@@ -1015,6 +1015,10 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 /* SECTION-MAIN */
 /* SECTION-INFO */
 @media (max-width: 1110px) {
+  .block-collaboration__block-column {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   .block-experience__block-column {
     flex-wrap: wrap;
     justify-content: space-around;
