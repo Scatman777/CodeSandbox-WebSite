@@ -103,19 +103,18 @@
         justify-content: flex-end;
         align-items: center;
         gap: 30px;
-        margin: 0px 0px 0px 78px;
     }
 
-    .HeaderBurger-menu,
-    .HeaderBurger-menu:after,
-    .HeaderBurger-menu:before {
+    .HeaderBurger__menu,
+    .HeaderBurger__menu:after,
+    .HeaderBurger__menu:before {
         width: 30px;
         height: 3px;
         background-color: $white;
         border-radius: 10px;
     }
 
-    .HeaderBurger-menu {
+    .HeaderBurger__menu {
         position: relative;
         display: flex;
 
@@ -138,13 +137,13 @@
         cursor: pointer;
     }
 
-    input[type="checkbox"]:checked~.HeaderBurger-list,
+    input[type="checkbox"]:checked~.HeaderBurger__list,
     .homelanguages-wrapper {
         right: 0px;
         transform: translateX(0vw);
     }
 
-    .HeaderBurger-list {
+    .HeaderBurger__list {
         display: flex;
         justify-content: center;
         align-items: center;
