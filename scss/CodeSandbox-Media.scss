@@ -67,8 +67,12 @@
 	}
 
 	@media (max-width: $media-phone) {
+		.section-main__sub-title {
+			font-size: 7vw;
+		}
+
 		.section-main__title {
-			
+			font-size: 9vw;
 		}
 	}
 
