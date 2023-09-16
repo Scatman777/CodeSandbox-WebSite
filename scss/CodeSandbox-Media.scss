@@ -25,10 +25,16 @@
 			top: -3px;
 			right: -22px;
 			width: 16px;
+			height: 16px;
 		}
 
 		.Header__Burger {
 			display: flex;
+		}
+
+		.header__block-button {
+			flex: 0 0 0;
+			margin-left: 15px;
 		}
 	}
 
