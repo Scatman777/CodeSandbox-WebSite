@@ -146,10 +146,10 @@
     .HeaderBurger__list {
         display: flex;
 		flex-direction: column;
-		gap: 15px;
-        justify-content: center;
+		justify-content: center;
         align-items: center;
-        background: #000000d4;
+		gap: 25px;
+        background: rgba(0, 0, 0, 0.96);
         position: fixed;
         width: 100vw;
         height: 100vh;

@@ -943,10 +943,10 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 .HeaderBurger__list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.831372549);
+  gap: 25px;
+  background: rgba(0, 0, 0, 0.96);
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -1033,6 +1033,9 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   }
   .section-main__button a {
     font-size: 14px;
+  }
+  .section-main__text-setup {
+    font-size: 16px;
   }
 }
 @media (max-width: 425px) {

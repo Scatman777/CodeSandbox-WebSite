@@ -47,6 +47,10 @@
 	}
 
 	@media (max-width: $media-tablet) {
+		.section-main__img {
+			margin-bottom: 120px;
+		}
+
 		.section-main__sub-title {
 			font-size: 25px;
 		}
@@ -66,7 +70,7 @@
 		}
 
 		.section-main__text-setup {
-			font-family: 16px;
+			font-size: 16px;
 		}
 	}
 
