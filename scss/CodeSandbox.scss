@@ -181,6 +181,8 @@ body {
 
 .section-main__list {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	gap: 33px;
 	border-bottom: 1px solid #343434;
 }
