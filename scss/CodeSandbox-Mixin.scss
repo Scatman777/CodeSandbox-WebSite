@@ -173,13 +173,13 @@
 
     .Burger-menu-close,
     .Burger-menu-close::before {
-        width: 33px;
-        height: 4px;
-        background-color: grey;
-        position: absolute;
-        transform: rotate(45deg);
-        top: 2.0625rem;
-        right: 10rem;
+		width: 32px;
+		height: 2px;
+		background-color: grey;
+		position: absolute;
+		transform: rotate(45deg);
+		top: 2.7rem;
+		right: 1rem;
     }
 
     .Burger-menu-close::before {

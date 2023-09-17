@@ -941,7 +941,7 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 .HeaderBurger__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.831372549);
@@ -958,7 +958,7 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 .HeaderBurger__item {
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 0, 0.4901960784);
+  border-bottom: 1px solid #DCFF50;
   padding-bottom: 10px;
 }
 .HeaderBurger__item a {
@@ -972,13 +972,13 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 
 .Burger-menu-close,
 .Burger-menu-close::before {
-  width: 33px;
-  height: 4px;
+  width: 32px;
+  height: 2px;
   background-color: grey;
   position: absolute;
   transform: rotate(45deg);
-  top: 2.0625rem;
-  right: 10rem;
+  top: 2.7rem;
+  right: 1rem;
 }
 
 .Burger-menu-close::before {
