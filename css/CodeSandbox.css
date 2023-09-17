@@ -1022,6 +1022,12 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 }
 /* SECTION-MAIN */
 @media (max-width: 768px) {
+  .section-main__img {
+    margin-bottom: 120px;
+  }
+  .section-main__block-title {
+    margin-bottom: 240px;
+  }
   .section-main__sub-title {
     font-size: 25px;
   }
