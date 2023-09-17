@@ -1006,7 +1006,7 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   .header__number {
     position: absolute;
     top: -3px;
-    right: -22px;
+    right: 396px;
     width: 16px;
     height: 16px;
   }
