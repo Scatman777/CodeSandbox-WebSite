@@ -114,5 +114,19 @@
 		}
 	}
 
+	@media (max-width: $media-tablet) {
+		.section-info__sub-title {
+			font-size: 25px;
+		}
+
+		.section-info__title {
+			font-size: 50px;
+		}
+
+		.section-info__text {
+			font-size: 16px;
+		}
+	}
+
 	///////////// MEIDA-FOOTER /////////////
 }
