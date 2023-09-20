@@ -652,7 +652,6 @@ body {
 
 .block-comments__block-column {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 38px;
 }
@@ -1054,8 +1053,16 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   .section-main__sub-title {
     font-size: 7vw;
   }
+
   .section-main__title {
     font-size: 9vw;
+  }
+
+  .section-info__title {
+	font-size: 12vw;
+	span {
+		font-size: 25px;
+	}
   }
 }
 /* SECTION-INFO */
