@@ -1049,21 +1049,34 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
     font-size: 16px;
   }
 }
-@media (max-width: 425px) {
-  .section-main__sub-title {
-    font-size: 7vw;
-  }
+@media (max-width: 500px) {
+	.section-main__sub-title {
+		font-size: 7vw;
+	}
+	
+	.section-main__title {
+		font-size: 9vw;
+  	}
 
-  .section-main__title {
-    font-size: 9vw;
-  }
+  	.section-info__title {
+		font-size: 12vw;
+  	}
 
-  .section-info__title {
-	font-size: 12vw;
-	span {
+	.section-info__title span {
 		font-size: 25px;
 	}
-  }
+
+	.block-collaboration__title {
+		font-size: 9vw;
+	}
+
+	.block-experience__title {
+		font-size: 9vw;
+	}
+
+	.block-comments__title {
+		font-size: 9vw;
+	}
 }
 /* SECTION-INFO */
 @media (max-width: 1110px) {
