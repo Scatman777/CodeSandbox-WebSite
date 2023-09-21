@@ -1077,6 +1077,14 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 	.block-comments__title {
 		font-size: 9vw;
 	}
+
+	.section-slider__title {
+		font-size: 9vw;
+	}
+
+	.section-slider__text {
+		font-size: 15px;
+	}
 }
 /* SECTION-INFO */
 @media (max-width: 1110px) {
