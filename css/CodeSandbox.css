@@ -450,23 +450,21 @@ body {
 
 .section-info__avatars-left .section-info__avatar:nth-child(1) {
   position: absolute;
+  animation: 1.5s infinite alternate avatar-left1;
+}
+@keyframes avatar-left1 {
+	from {
+		top: -40px;
+	}
+
+	to {
+		top: -80px;
+	}
 }
 
 .section-info__avatars-left .section-info__avatar:nth-child(1) img {
   width: 59px;
   height: 59px;
-  animation: 2s infinite alternate avatar-left1;
-}
-@keyframes avatar-left1 {
-	from {
-		width: 59px;
-		height: 59px;
-	}
-
-	to {
-		width: 80px;
-		height: 80px;
-	}
 }
 
 .section-info__avatars-left .section-info__avatar:nth-child(2) {
@@ -477,13 +475,11 @@ body {
 }
 @keyframes avatar-left2 {
 	from {
-		top: 124px;
-		left: -19px;
+		top: 40px;
 	}
 
 	to {
 		top: 80px;
-		left: -19px;
 	}
 }
 
@@ -537,8 +533,8 @@ body {
 	}
 
 	to {
-		top: -10px;
-		left: 80px;
+		top: 10px;
+		right: 80px;
 	}
 }
 
@@ -553,14 +549,13 @@ body {
   right: -22px;
   animation: 1.5s infinite alternate avatar-right2;
 }
-
-@keyframes avatar-right1 {
+@keyframes avatar-right2 {
 	from {
-		top: 0px;
+		top: -40px;
 	}
 
 	to {
-		top: -40px;
+		top: -80px;
 	}
 }
 .section-info__avatars-right .section-info__avatar:nth-child(2) img {
@@ -573,15 +568,15 @@ body {
   position: absolute;
   top: 124px;
   right: -18px;
+  animation: 1.5s infinite alternate avatar-right3;
 }
-
-@keyframes avatar-right1 {
+@keyframes avatar-right3 {
 	from {
-		top: 0px;
+		top: 40px;
 	}
 
 	to {
-		top: -40px;
+		top: 80px;
 	}
 }
 
