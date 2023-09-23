@@ -886,6 +886,7 @@ body {
 .swiper .swiper-slide:hover {
   transform: translateY(-58px);
   transition: all 0.6s;
+  z-index: 3;
 }
 .swiper .swiper-slide img {
   width: 611px;
