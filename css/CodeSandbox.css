@@ -894,6 +894,12 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 1700px) {
+	.swiper .swiper-wrapper {
+		justify-content: start;
+	}
+}
+
 .footer {
   border-top: 1px solid #343434;
 }

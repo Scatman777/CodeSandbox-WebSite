@@ -8,16 +8,7 @@ var swiper = new Swiper(".swiper", {
 	mousewheel: true,
 	breakpoints: {
 		1660: {
-			slidesPerView: 1,
+			slidesPerView: 3,
 		},
-
-		1024: {
-			speed: 1000,
-			autoplay: {
-				delay: 3000,
-				reverseDirection: true,
-				disableOnInteraction: false,
-			},
-		}
 	}
 });
