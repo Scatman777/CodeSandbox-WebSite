@@ -861,6 +861,7 @@ body {
 .swiper .swiper-wrapper {
   display: flex;
   justify-content: center;
+  gap: 100px;
   min-width: 0;
   height: 323px;
   transform: translate(-165px, 0px);
@@ -890,6 +891,12 @@ body {
   width: 611px;
   height: 323px;
   object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+	.swiper .swiper-wrapper {
+		flex-direction: column;
+	}
 }
 
 .footer {
