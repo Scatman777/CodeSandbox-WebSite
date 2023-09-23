@@ -7,13 +7,12 @@ var swiper = new Swiper(".swiper", {
 	keyboard: true,
 	mousewheel: true,
 	breakpoints: {
-		1024: {
-			direction: 'vertical',
-			spaceBetween: 30,
+		1660: {
 			slidesPerView: 1,
+		},
+
+		1024: {
 			speed: 1000,
-			loop: true,
-			loopedSlides: 1,
 			autoplay: {
 				delay: 3000,
 				reverseDirection: true,

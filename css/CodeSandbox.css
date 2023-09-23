@@ -894,12 +894,6 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 1024px) {
-	.swiper .swiper-wrapper {
-		flex-direction: column;
-	}
-}
-
 .footer {
   border-top: 1px solid #343434;
 }
