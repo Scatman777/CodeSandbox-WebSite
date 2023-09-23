@@ -2,6 +2,8 @@ var swiper = new Swiper(".swiper", {
 	direction: 'vertical',
     effect: 'slide',
     slidesPerView: 1,
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
     loop: true,
     autoplay: {
         delay: 2000,
