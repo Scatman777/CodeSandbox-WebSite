@@ -860,10 +860,10 @@ body {
 
 .swiper .swiper-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   min-width: 0;
   height: 323px;
-  overflow: hidden;
+  transform: translate(-165px, 0px);
 }
 
 .swiper .swiper-slide {
