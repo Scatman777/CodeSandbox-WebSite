@@ -865,6 +865,7 @@ body {
 }
 
 .swiper .swiper-slide {
+  max-height: 323px;
   transition: all 0.6s;
 }
 .swiper .swiper-slide:nth-child(1) {
