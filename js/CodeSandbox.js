@@ -1,7 +1,7 @@
 var swiper = new Swiper(".swiper", {
-	direction: horizontal,
+	direction: 'vertical',
 	watchOverflow: true,
-	slidesPerView: 3,
+	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	dots: false,

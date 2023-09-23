@@ -860,6 +860,7 @@ body {
 
 .swiper .swiper-wrapper {
   display: flex;
+  flex-direction: column;
   min-width: 0;
 }
 
@@ -885,8 +886,7 @@ body {
 .swiper .swiper-slide img {
   width: 611px;
   height: 323px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer {
