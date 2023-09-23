@@ -4,9 +4,10 @@ var swiper = new Swiper(".swiper", {
     slidesPerView: 1,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
-    loop: true,
+	speed: 1000,
+    loop: false,
     autoplay: {
-        delay: 2000,
+        delay: 3000,
         reverseDirection: true,
         disableOnInteraction: false,
     },
