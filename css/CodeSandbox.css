@@ -863,12 +863,10 @@ body {
   justify-content: center;
   gap: 100px;
   min-width: 0;
-  height: 323px;
   transform: translate(-165px, 0px);
 }
 
 .swiper .swiper-slide {
-  max-height: 323px;
   transition: all 0.6s;
 }
 .swiper .swiper-slide:nth-child(1) {
@@ -896,6 +894,12 @@ body {
 
 @media (max-width: 1700px) {
 	.swiper .swiper-wrapper {
+		justify-content: start;
+	}
+}
+
+@media (max-width: 1700px) {
+	.swiper .swiper-slide {
 		justify-content: start;
 	}
 }
