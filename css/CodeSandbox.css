@@ -808,6 +808,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 152px;
+  margin-bottom: 10px;
 }
 
 .section-slider__block-text {
@@ -898,9 +899,17 @@ body {
 	}
 }
 
-@media (max-width: 1700px) {
-	.swiper .swiper-slide {
-		justify-content: start;
+@media (max-width: 1150px) {
+	.swiper .swiper-slide img {
+		width: 400px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 850px) {
+	.swiper .swiper-slide img {
+		width: 340px;
+		height: 160px;
 	}
 }
 
