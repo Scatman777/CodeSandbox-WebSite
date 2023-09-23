@@ -1,4 +1,5 @@
 var swiper = new Swiper(".swiper", {
+	direction: horizontal,
 	watchOverflow: true,
 	slidesPerView: 3,
 	slidesPerGroup: 1,

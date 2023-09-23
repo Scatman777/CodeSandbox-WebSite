@@ -210,12 +210,17 @@ body {
 .section-main__img {
   margin: 32px 0px 152px 0px;
 }
-.section-main__img img {
+
+.section-main__img {
+	background: url("/img/Main-IMG.svg") center center no-repeat  fixed;
+	background-size: cover;
+}
+/* .section-main__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
+} */
 
 .section-main__block-title {
   text-align: center;
