@@ -900,6 +900,10 @@ body {
 }
 
 @media (max-width: 1150px) {
+	.swiper .swiper-wrapper {
+		gap: 0px;
+	}
+
 	.swiper .swiper-slide img {
 		width: 400px;
 		height: 250px;
@@ -914,10 +918,6 @@ body {
 }
 
 @media (max-width: 500px) {
-	.swiper .swiper-wrapper {
-		gap: 0px;
-	}
-
 	.swiper .swiper-slide img {
 		width: 200px;
     	height: 260px;
