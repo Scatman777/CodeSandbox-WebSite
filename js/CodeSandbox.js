@@ -7,10 +7,9 @@ var swiper = new Swiper(".swiper", {
 	dots: false,
 	keyboard: true,
 	mousewheel: true,
-
-	breakPoints: {
-		500: {
-			slidesPerView: 4,
-		}
-	}
+	// breakPoints: {
+	// 	500: {
+	// 		slidesPerView: 4,
+	// 	}
+	// }
 });
