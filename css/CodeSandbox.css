@@ -868,6 +868,8 @@ body {
 }
 
 .swiper .swiper-slide {
+  width: 611px;
+  height: 323px;
   transition: all 0.6s;
 }
 .swiper .swiper-slide:nth-child(1) {
@@ -920,7 +922,7 @@ body {
 @media (max-width: 500px) {
 	.swiper .swiper-slide img {
 		width: 200px;
-    	height: 260px;
+    	height: 160px;
 	}
 }
 

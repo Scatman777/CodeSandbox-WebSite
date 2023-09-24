@@ -1,6 +1,6 @@
 var swiper = new Swiper(".swiper", {
 	watchOverflow: true,
-	slidesPerView: 4,
+	slidesPerView: 3,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	initialSlide: 0,
@@ -8,12 +8,8 @@ var swiper = new Swiper(".swiper", {
 	keyboard: true,
 	mousewheel: true,
 	breakPoints: {
-		1700: {
-			slidesPerView: 3,
-		},
-
 		500: {
-			spaseBeatween: 100,
+			spaseBetween: 100,
 		}
 	}
 });
