@@ -921,6 +921,16 @@ body {
 }
 
 @media (max-width: 500px) {
+	.swiper .swiper-slide:nth-child(1) {
+		transform: translateY(0px);
+	}
+	  .swiper .swiper-slide:nth-child(2) {
+		transform: translateY(0px);
+	}
+	  .swiper .swiper-slide:nth-child(3) {
+		transform: translateY(0px);
+	}
+
 	.swiper .swiper-slide img {
 		width: 200px;
     	height: 160px;
