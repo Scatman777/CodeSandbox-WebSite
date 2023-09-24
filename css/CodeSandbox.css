@@ -862,7 +862,7 @@ body {
 .swiper .swiper-wrapper {
   display: flex;
   justify-content: center;
-  /* gap: 100px; */
+  gap: 100px;
   min-width: 0;
   transform: translate(-165px, 0px);
 }
@@ -914,6 +914,10 @@ body {
 }
 
 @media (max-width: 500px) {
+	.swiper .swiper-wrapper {
+		gap: 0px;
+	}
+
 	.swiper .swiper-slide img {
 		width: 200px;
     	height: 260px;
