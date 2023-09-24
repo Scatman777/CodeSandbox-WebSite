@@ -1,14 +1,15 @@
 var swiper = new Swiper(".swiper", {
 	watchOverflow: true,
-	slidesPerView: 4,
+	slidesPerView: 3,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
+	initialSlide: 0,
 	dots: false,
 	keyboard: true,
 	mousewheel: true,
-	breakpoints: {
-		1660: {
-			slidesPerView: 3,
-		},
+	breakPoints: {
+		500: {
+			spaseBeatween: 40,
+		}
 	}
 });
