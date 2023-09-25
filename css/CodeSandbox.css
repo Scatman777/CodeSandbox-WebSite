@@ -876,14 +876,14 @@ body {
   transform: translateY(-34px);
 }
 .swiper .swiper-slide:nth-child(2) {
-  transform: translateY(-200px, -24px);
+  transform: translate(-200px, -24px);
 }
 .swiper .swiper-slide:nth-child(3) {
-  transform: translateY(-200px, -14px);
+  transform: translate(-200px, -14px);
 }
 .swiper .swiper-slide:nth-child(4) {	
   z-index: 2;
-  transform: translateX(-200px,);
+  transform: translate(-200px, 0px);
 }
 .swiper .swiper-slide:hover {
   transform: translateY(-58px);
