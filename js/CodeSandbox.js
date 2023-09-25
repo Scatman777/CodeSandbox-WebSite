@@ -1,6 +1,8 @@
 var swiper = new Swiper(".mySwiper", {
 	watchOverflow: true,
-	slidesPerView: 1,
+	slidesPerView: 3,
+	spaceBetween: 30,
+	freeMode: true,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	initialSlide: 0,
@@ -9,11 +11,7 @@ var swiper = new Swiper(".mySwiper", {
 	mousewheel: true,
 	breakpoints: {
 		500: {
-			slidesPerView: 2,
-		},
-
-		1700: {
-			slidesPerView: 3,
+			spaceBetween: 100,
 		},	
 	},
 });
