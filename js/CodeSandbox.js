@@ -1,6 +1,6 @@
 var swiper = new Swiper(".mySwiper", {
 	watchOverflow: true,
-	slidesPerView: 4,
+	slidesPerView: 1,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	initialSlide: 0,
@@ -14,6 +14,6 @@ var swiper = new Swiper(".mySwiper", {
 
 		1700: {
 			slidesPerView: 3,
-		}	
+		},	
 	},
 });
