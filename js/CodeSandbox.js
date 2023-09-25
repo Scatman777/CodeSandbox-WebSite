@@ -4,12 +4,13 @@ var swiper = new Swiper(".swiper", {
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	initialSlide: 0,
+	spaseBetween: 150,
 	dots: false,
 	keyboard: true,
 	mousewheel: true,
-	// breakPoints: {
-	// 	500: {
-	// 		slidesPerView: 4,
-	// 	}
-	// }
+	breakPoints: {
+		500: {
+			slidesPerView: 2,
+		}
+	}
 });
