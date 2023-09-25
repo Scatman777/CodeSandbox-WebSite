@@ -862,7 +862,7 @@ body {
 .swiper .swiper-wrapper {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  /* gap: 100px; */
   min-width: 0;
   transform: translate(-165px, 0px);
 }
@@ -904,7 +904,7 @@ body {
 
 @media (max-width: 1150px) {
 	.swiper .swiper-wrapper {
-		gap: 0px;
+		/* gap: 0px; */
 	}
 
 	.swiper .swiper-slide img {
@@ -920,7 +920,7 @@ body {
 
 @media (max-width: 500px) {
 	.swiper .swiper-wrapper {
-		gap: 31px;
+		/* gap: 31px; */
 	}
 
 	.swiper .swiper-slide:nth-child(1) {
