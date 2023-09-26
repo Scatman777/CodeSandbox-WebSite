@@ -224,6 +224,12 @@ body {
 	  }
 }
 
+@media (max-width: 425px) {
+	.section-main__img img {
+		height: 45vw;
+	  }
+}
+
 .section-main__block-title {
   text-align: center;
   margin-bottom: 341px;
@@ -1169,9 +1175,15 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
     display: flex;
   }
   .header__block-button {
-    flex: 0 0 0;
+    flex: 106px 0 0;
     margin-left: 15px;
   }
+}
+
+@media (max-width: 425px) {
+	.header__logo img {
+		width: 110px;
+	}
 }
 /* SECTION-MAIN */
 @media (max-width: 768px) {
