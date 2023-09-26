@@ -214,8 +214,14 @@ body {
 .section-main__img img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 530px) {
+	.section-main__img img {
+		height: 35vw;
+		object-position: left;
+	  }
 }
 
 .section-main__block-title {
