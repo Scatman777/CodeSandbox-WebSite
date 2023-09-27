@@ -128,5 +128,70 @@
 		}
 	}
 
+	@media (max-width: $media-phone) {
+		.section-info__screen img {
+			height: 70vw;
+		}
+
+		.section-info__avatars-left .section-info__avatar:nth-child(1) {
+			top: 0;
+			left: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+
+		.section-info__avatars-left .section-info__avatar:nth-child(2) {
+			top: 0;
+			left: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+
+		.section-info__avatars-left .section-info__avatar:nth-child(3) {
+			left: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+	
+		.section-info__avatars-right .section-info__avatar:nth-child(1) {
+			top: 0;
+			right: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+
+		.section-info__avatars-right .section-info__avatar:nth-child(2) {
+			top: 0;
+			right: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+
+		.section-info__avatars-right .section-info__avatar:nth-child(3) {
+			top: 0;
+			right: 0;
+
+			img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+	}
+
 	///////////// MEIDA-FOOTER /////////////
 }
