@@ -104,6 +104,10 @@
 	}
 
 	@media (max-width: $media-phone) {
+		.section-main__body {
+			margin-bottom: 200px;
+		}
+
 		.section-main__img img {
 			height: 45vw;
 		}
@@ -258,6 +262,7 @@
 	@media (max-width: 1150px) {
 		.swiper .swiper-slide img {
 			width: 400px;
+			height: 240px;
 		}
 	}
 	
@@ -282,6 +287,7 @@
 	
 		.swiper .swiper-slide img {
 			width: 300px;
+			height: 160px;
 		}
 	}
 
