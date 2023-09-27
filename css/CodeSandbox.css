@@ -1279,6 +1279,16 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   }
 }
 @media (max-width: 425px) {
+	.section-info__avatars-left .section-info__avatar {
+		top: 0px;
+		left: 0px;
+	}
+
+	.section-info__avatars-right .section-info__avatar {
+		top: 0px;
+		right: 0px;
+	}
+
 	.section-info__avatar img {
 		width: 70px;
 		height: 70px;
