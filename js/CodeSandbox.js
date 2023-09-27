@@ -9,12 +9,4 @@ var swiper = new Swiper(".mySwiper", {
 	dots: false,
 	keyboard: true,
 	mousewheel: true,
-	// breakpoints: {
-	// 	500: {
-	// 		spaceBetween: 0,
-	// 	},
-
-	// 	1750: {
-	// 	},
-	// },
 });
