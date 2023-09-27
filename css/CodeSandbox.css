@@ -1229,6 +1229,12 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   .block-collaboration__title {
     font-size: 9vw;
   }
+  .block-experience__title {
+    font-size: 9vw;
+  }
+  .block-comments__title {
+    font-size: 9vw;
+  }
 }
 /* SECTION-SLIDER */
 @media (max-width: 1700px) {

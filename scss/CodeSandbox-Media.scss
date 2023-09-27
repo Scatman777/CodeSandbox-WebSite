@@ -242,6 +242,10 @@
 		.block-experience__title {
 			font-size: 9vw;
 		}
+
+		.block-comments__title {
+			font-size: 9vw;
+		}
 	}
 
 	/* SECTION-SLIDER */
@@ -278,6 +282,12 @@
 	
 		.swiper .swiper-slide img {
 			width: 300px;
+		}
+	}
+
+	@media (max-width: $media-phone) {
+		.section-slider__title {
+			font-size: 9vw;
 		}
 	}
 
