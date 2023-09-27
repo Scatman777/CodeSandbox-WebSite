@@ -94,9 +94,9 @@ body {
 }
 
 .header__block-button {
+	flex: 1 1 48px;
 	display: flex;
-    flex: 1 1 48px;
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 .header__button {
@@ -307,9 +307,21 @@ body {
 
 	.section-info__avatar {
 		&:nth-child(1) {
+			position: absolute;
+			animation: 1.5s infinite alternate avatar-left1;
+
 			img {
 				width: 59px;
 				height: 59px;
+			}
+		}
+		@keyframes avatar-left1 {
+			from {
+				top: -40px;
+			}
+		
+			to {
+				top: -80px;
 			}
 		}
 	
@@ -317,21 +329,39 @@ body {
 			position: absolute;
 			top: 124px;
 			left: -19px;
+			animation: 1.5s infinite alternate avatar-left2;
 
 			img {
 				width: 91px;
 				height: 91px;
 			}
 		}
+		@keyframes avatar-left2 {
+			from {
+				top: 40px;
+			}
+		
+			to {
+				top: 80px;
+			}
+		}
 	
 		&:nth-child(3) {
 			position: absolute;
-			top: -10px;
     		left: 120px;
+			animation: 1.5s infinite alternate avatar-left3;
 
 			img {
 				width: 84px;
 				height: 84px;
+			}
+		}
+		@keyframes avatar-left3 {
+			from {
+				left: 120px;
+			}
+			to {
+				left: 80px;
 			}
 		}
 	}
@@ -348,6 +378,7 @@ body {
 			right: 157px;
 			width: 70px;
 			height: 70px;
+			animation: 1.5s infinite alternate avatar-right1;
 
 			img {
 				width: 70px;
@@ -355,14 +386,33 @@ body {
 				object-fit: cover;
 			}
 		}
+		@keyframes avatar-right1 {
+			from {
+				right: 117px;
+			}
+		
+			to {
+				right: 80px;
+			}
+		}
 	
 		&:nth-child(2) {
 			position: absolute;
 			right: -22px;
+			animation: 1.5s infinite alternate avatar-right2;
 
 			img {
 				width: 91px;
 				height: 91px;
+			}
+		}
+		@keyframes avatar-right2 {
+			from {
+				top: -40px;
+			}
+		
+			to {
+				top: -80px;
 			}
 		}
 	
@@ -370,10 +420,20 @@ body {
 			position: absolute;
 			top: 124px;
 			right: -18px;
+			animation: 1.5s infinite alternate avatar-right3;
 
 			img {
 				width: 84px;
 				height: 84px;
+			}
+		}
+		@keyframes avatar-right3 {
+			from {
+				top: 40px;
+			}
+		
+			to {
+				top: 80px;
 			}
 		}
 	}
@@ -583,6 +643,8 @@ body {
 }
 
 .swiper .swiper-slide {
+	max-width: 430px;
+  	max-height: 100%;
 	transition: all 0.6s;
 
 	&:nth-child(1) {

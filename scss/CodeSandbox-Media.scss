@@ -40,6 +40,16 @@
 		}
 	}
 
+	@media (max-width: $media-phone) {
+		.header__logo img {
+			width: 110px;
+		}
+
+		.header__block-button {
+			flex: 106px 0 0;
+		}
+	}
+
 	///////////// MEIDA-MAIN /////////////
 	
 	/* SECTION-MAIN */
@@ -86,13 +96,30 @@
 		}
 	}
 
+	@media (max-width: 530px) {
+		.section-main__img img {
+			height: 35vw;
+			object-position: left;
+		}
+	}
+
 	@media (max-width: $media-phone) {
+		.section-main__img img {
+			height: 45vw;
+		}
+
 		.section-main__sub-title {
 			font-size: 7vw;
 		}
 
 		.section-main__title {
 			font-size: 9vw;
+		}
+
+		.section-main__img-setup {
+			img {
+				height: 80vw;
+			}
 		}
 	}
 
@@ -130,7 +157,23 @@
 
 	@media (max-width: $media-phone) {
 		.section-info__screen img {
-			height: 70vw;
+			height: 80vw;
+		}
+
+		.section-info__sub-title {
+			font-size: 6vw;
+			
+			span {
+				font-size: 6vw;
+			}
+		}
+
+		.section-info__title {
+			font-size: 12vw;
+		}
+
+		.section-info__text {
+			font-size: 15px;
 		}
 
 		.section-info__avatars-left .section-info__avatar:nth-child(1) {
@@ -191,6 +234,14 @@
 				height: 70px;
 			}
 		}
+
+		.block-collaboration__title {
+			font-size: 9vw;
+		}
+
+		.block-experience__title {
+			font-size: 9vw;
+		}
 	}
 
 	/* SECTION-SLIDER */
@@ -231,4 +282,21 @@
 	}
 
 	///////////// MEIDA-FOOTER /////////////
+	
+
+	@media (max-width: 700px) {
+		.footer__block-navigation {
+			justify-content: space-around;
+			gap: 70px;
+		}
+	
+		.footer__column {
+			align-items: center;
+			text-align: center;
+		}
+	
+		.footer__number {
+			left: 70px;
+		}
+	}
 }
