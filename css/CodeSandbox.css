@@ -449,6 +449,12 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 425px) {
+	.section-info__screen img {
+		height: 65vw;
+	}
+}
+
 .section-info__avatar-column {
   position: relative;
   display: flex;
