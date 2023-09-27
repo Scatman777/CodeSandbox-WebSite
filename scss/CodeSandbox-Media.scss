@@ -160,6 +160,10 @@
 	}
 
 	@media (max-width: $media-phone) {
+		.section-info__body {
+			margin-bottom: 50px;
+		}
+
 		.section-info__screen img {
 			height: 80vw;
 		}

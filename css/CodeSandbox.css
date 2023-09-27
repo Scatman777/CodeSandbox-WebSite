@@ -1127,7 +1127,7 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 }
 @media (max-width: 425px) {
   .section-main__body {
-    margin-bottom: 220px;
+    margin-bottom: 200px;
   }
   .section-main__img img {
     height: 45vw;
@@ -1231,11 +1231,20 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
     width: 70px;
     height: 70px;
   }
+  .section-info__block-collaboration {
+    margin-bottom: 180px;
+  }
   .block-collaboration__title {
     font-size: 9vw;
   }
+  .section-info__block-experience {
+    margin-bottom: 180px;
+  }
   .block-experience__title {
     font-size: 9vw;
+  }
+  .section-info__block-comments {
+    margin-bottom: 180px;
   }
   .block-comments__title {
     font-size: 9vw;
