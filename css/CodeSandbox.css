@@ -510,12 +510,12 @@ body {
 }
 @keyframes avatar-left3 {
 	from {
-		top: -10px;
+		top: 9px;
 		left: 120px;
 	}
 
 	to {
-		top: -10px;
+		top: 9px;
 		left: 80px;
 	}
 }
@@ -870,7 +870,6 @@ body {
 .swiper .swiper-wrapper {
   display: flex;
   justify-content: center;
-  /* gap: 100px; */
   min-width: 0;
 }
 
@@ -1288,7 +1287,6 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 		left: 0;
 	}
 	.section-info__avatars-left .section-info__avatar:nth-child(3) {
-		top: 0;
 		left: 0;
 	}
 	.section-info__avatars-left .section-info__avatar:nth-child(1) img {
@@ -1306,15 +1304,15 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 
 	.section-info__avatars-right .section-info__avatar:nth-child(1) {
 		top: 0;
-		left: 0;
+		right: 0;
 	}
 	.section-info__avatars-right .section-info__avatar:nth-child(2) {
 		top: 0;
-		left: 0;
+		right: 0;
 	}
 	.section-info__avatars-right .section-info__avatar:nth-child(3) {
 		top: 0;
-		left: 0;
+		right: 0;
 	}
 	.section-info__avatars-right .section-info__avatar:nth-child(1) img {
 		width: 70px;
