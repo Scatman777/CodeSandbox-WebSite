@@ -1278,3 +1278,9 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
     font-size: 16px;
   }
 }
+@media (max-width: 425px) {
+	.section-info__avatar img {
+		width: 70px;
+		height: 70px;
+	}
+}
