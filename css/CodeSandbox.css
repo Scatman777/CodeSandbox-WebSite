@@ -1169,6 +1169,9 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   }
 }
 @media (max-width: 425px) {
+  .section-info__body {
+    margin-bottom: 50px;
+  }
   .section-info__screen img {
     height: 80vw;
   }
