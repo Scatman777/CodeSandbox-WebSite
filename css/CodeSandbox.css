@@ -1050,6 +1050,19 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   right: 0;
 }
 
+/* HEADER-ANIMATION */
+.header__item:nth-child(1) .element-animation {
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: all 0.5s ease 0.2s;
+}
+.header__item:nth-child(1) .element-animation.element-show {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+/* MAIN-ANIMATION */
+/* FOOTER-ANIMATION */
 /* VARABILES-MEDIA */
 @media (max-width: 1110px) {
   .header__block-button {

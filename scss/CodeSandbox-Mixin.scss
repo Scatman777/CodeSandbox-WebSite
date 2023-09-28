@@ -191,21 +191,19 @@
 }
 
 ////////////////// ANIMATION //////////////////
-@mixin all-animation {
+@mixin All-Animation {
 
 	/* HEADER-ANIMATION */
 	.header__item {
-		&:nth-child(1) {
-			.element-animation {
-				opacity: 0;
-				transform: translateX(-20%);
-				transition: all 0.5s ease 0.2s;
-			}
+		&:nth-child(1).element-animation {
+			opacity: 0;
+			transform: translateX(-20%);
+			transition: all 0.5s ease 0.2s;
+		}
 
-			.element-animation .element-show {
-				opacity: 1;
-				transform: translateX(0%);
-			}
+		&:nth-child(1).element-animation.elment-show {
+			opacity: 1;
+			transform: translateX(0%);
 		}
 	}
 
