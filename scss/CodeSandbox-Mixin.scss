@@ -189,3 +189,26 @@
         right: 0;
     }
 }
+
+////////////////// ANIMATION //////////////////
+@mixin all-animation {
+
+	/* HEADER-ANIMATION */
+	.header__item {
+		&:nth-child(1) {
+			.element-animation {
+				opacity: 0;
+				transform: translateX(-20%);
+				transition: all 0.5s ease 0.2s;
+			}
+
+			.element-animation .element-show {
+				opacity: 1;
+				transform: translateX(0%);
+			}
+		}
+	}
+
+	/* MAIN-ANIMATION */
+	/* FOOTER-ANIMATION */
+}
