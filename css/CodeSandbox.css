@@ -708,7 +708,6 @@ body {
 
 .block-comments__block-column {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 38px;
 }
@@ -1175,7 +1174,7 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 .section-info__img.element-animation.element-show {
   opacity: 1;
   transform: translateX(0%);
-  transition: all 0.5s ease 0.5s;
+  transition: all 1s linear 0.2s;
 }
 
 /* FOOTER-ANIMATION */
