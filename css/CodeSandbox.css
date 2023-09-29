@@ -1166,13 +1166,13 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
 }
 
 /* SECTION-INFO */
-.section-info__imgelement-animation {
+.section-info__img.element-animation {
   opacity: 0;
   transform: translateX(-40%);
   transition: all 0.5s;
 }
 
-.section-info__imgelement-animation.element-show {
+.section-info__img.element-animation.element-show {
   opacity: 1;
   transform: translateX(0%);
   transition: all 0.5s ease 0.5s;
