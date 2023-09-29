@@ -340,7 +340,7 @@ body {
 }
 
 .section-info {
-  background: url(/img/Group.svg) center 66.7% no-repeat;
+  background: url("/img/Group.svg") center 66.7% no-repeat;
 }
 
 .section-info__body {
