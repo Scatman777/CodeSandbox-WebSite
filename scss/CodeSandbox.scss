@@ -648,6 +648,17 @@ body {
 
 	&:nth-child(1) {
 		transform: translateY(-34px);
+		animation: swiper-slide1 1s ease alternate infinite;
+	}
+
+	@keyframes swiper-slide1 {
+		0% {
+			transform: translateY(-20%);
+		}
+	
+		100% {
+			transform: translateY(0%);
+		}
 	}
 
 	&:nth-child(2) {

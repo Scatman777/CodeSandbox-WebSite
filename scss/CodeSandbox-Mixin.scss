@@ -332,10 +332,10 @@
 		transition: all 0.5s;
 	}
 
-	.section-info__scree.element-animation.element-show {
+	.section-info__screen.element-animation.element-show {
 		opacity: 1;
 		transform: translateY(0%);
-		transition: all 1s cubic-bezier(0.39, 0.58, 0.57, 1) 0.5s;
+		transition: all 1s cubic-bezier(0.39, 0.58, 0.57, 1) 0.2s;
 	}
 
 	/* FOOTER-ANIMATION */

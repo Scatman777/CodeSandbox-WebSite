@@ -841,6 +841,15 @@ body {
 }
 .swiper .swiper-slide:nth-child(1) {
   transform: translateY(-34px);
+  animation: swiper-slide1 1s ease alternate infinite;
+}
+@keyframes swiper-slide1 {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 .swiper .swiper-slide:nth-child(2) {
   transform: translateY(-24px);
@@ -1175,6 +1184,18 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   opacity: 1;
   transform: translateX(0%);
   transition: all 1s cubic-bezier(0.39, 0.58, 0.57, 1) 0.5s;
+}
+
+.section-info__screen.element-animation {
+  opacity: 0;
+  transform: translateY(40%);
+  transition: all 0.5s;
+}
+
+.section-info__screen.element-animation.element-show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1s cubic-bezier(0.39, 0.58, 0.57, 1) 0.2s;
 }
 
 /* FOOTER-ANIMATION */
