@@ -304,7 +304,7 @@
 
 	.section-main__list.element-animation {
 		opacity: 0;
-		transform: translateX(-40%);
+		transform: translateY(40%);
 		transition: all 0.5s;
 	}
 	.section-main__list.element-animation.element-show {
