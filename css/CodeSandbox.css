@@ -1165,6 +1165,19 @@ input[type=checkbox]:checked ~ .HeaderBurger__list,
   transition: all 0.5s ease 0.5s;
 }
 
+/* SECTION-INFO */
+.section-info__imgelement-animation {
+  opacity: 0;
+  transform: translateX(-40%);
+  transition: all 0.5s;
+}
+
+.section-info__imgelement-animation.element-show {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 0.5s ease 0.5s;
+}
+
 /* FOOTER-ANIMATION */
 /* VARABILES-MEDIA */
 @media (max-width: 1110px) {
