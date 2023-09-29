@@ -648,7 +648,7 @@ body {
 
 	&:nth-child(1) {
 		transform: translateY(-34px);
-		animation: swiper-slide1 1s ease alternate infinite;
+		animation: swiper-slide1 2s ease alternate infinite;
 	}
 
 	@keyframes swiper-slide1 {
